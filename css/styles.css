@@ -1,0 +1,109 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #f1f3f8;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+h1{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+h2{
+  padding-top: 1%;
+  padding-bottom: 1%; 
+}
+
+#nvabarTitleBlock{
+  background-color: #f1f3f8 ;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+#researchWorks{
+  padding: 0% 0%;
+}
+
+.container-fluid{
+  padding: 3% 3%;
+}
+
+.no-padding{
+  padding: 0% 0%;
+}
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 12px;
+}
+
+.centering{
+  text-align: center;
+}
+
+.carousel-item{
+  height: 500px;
+}
+
+table, th, td {
+  border: 3px solid lightgray;
+  border-collapse: collapse;
+}
+
+
+
+th{
+  padding: 1% 1% 1%;
+}
+
+td {
+  padding: 2% 2% 2%;
+}
+
+
+
+/*this is for changing text color when the user is printing the website*/
+/*printing attempt will change to color of the text*/
+@media print{
+  h1{
+    color: #f1f3f8;
+  }
+
+  h2{
+    color: #f1f3f8;
+  }
+
+  h3{
+    color: #f1f3f8;
+  }
+
+  p{
+    color: #f1f3f8;
+  }
+}
+
+
+
+#footer{
+  text-align: center;
+}
+
+.social-icon{
+margin: 20px 10px;
+}
